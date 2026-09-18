@@ -1,0 +1,4 @@
+{
+  "local_glb_fetch_ms": 9.688,
+  "note": "Browser request elapsed time; excludes geometry generation, GPU upload, and paint."
+}

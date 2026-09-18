@@ -1,0 +1,28 @@
+{
+  "measurements": [
+    {
+      "case": "cold_block",
+      "elapsed_seconds": 7.637,
+      "cache_hit": false,
+      "peak_worker_rss_mib": 377.4,
+      "preview_bytes": 3576
+    },
+    {
+      "case": "cached_block",
+      "elapsed_seconds": 0.077,
+      "cache_hit": true,
+      "peak_worker_rss_mib": 0.0,
+      "preview_bytes": 3576
+    },
+    {
+      "case": "cold_airfoil",
+      "elapsed_seconds": 8.04,
+      "cache_hit": false,
+      "peak_worker_rss_mib": 386.1,
+      "preview_bytes": 121520
+    }
+  ],
+  "ten_updates_parent_rss_change_mib": 0.12,
+  "children_remaining": 0,
+  "notes": "Single Windows run; includes Python/OpenCascade subprocess startup. Warm filesystem and installed dependencies. RSS is sampled, not a leak proof."
+}
